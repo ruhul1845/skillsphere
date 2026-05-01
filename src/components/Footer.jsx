@@ -19,7 +19,7 @@ export default function Footer() {
 
                 <div>
                     <h4 className="font-bold text-white mb-3">Quick Links</h4>
-                    <ul className="space-y-2 text-blue-100 md:grid grid-cols-1">
+                    <ul className="space-y-2 text-blue-100 grid grid-cols-1 md:grid-cols-3">
                         <li>
                             <Link href="/" className="hover:text-white transition">
                                 Home
