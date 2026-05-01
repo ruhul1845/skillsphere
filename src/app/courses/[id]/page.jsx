@@ -39,9 +39,7 @@ const CourseDetails = async ({ params }) => {
 
                 <div className="absolute bottom-0 left-0 right-0 px-4 sm:px-6 lg:px-8 pb-8 text-white">
                     <div className="max-w-6xl mx-auto">
-                        <div className="inline-block mb-4 px-4 py-2 bg-yellow-400/20 backdrop-blur-sm rounded-full border border-yellow-400/50">
 
-                        </div>
                         <h1 className="text-5xl sm:text-6xl font-bold mb-4 leading-tight">
                             {course.title}
                         </h1>

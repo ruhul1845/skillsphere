@@ -79,7 +79,7 @@ export default function Navbar() {
                 <div className='navbar-end'>
                     {
                         !user ? <div className="navbar-end gap-2">
-                            <Link href="/login" className="btn btn-ghost btn-sm rounded-full">
+                            <Link href="/login" className="btn btn-ghost btn-sm text-base font-bold rounded-full">
                                 Login
                             </Link>
 

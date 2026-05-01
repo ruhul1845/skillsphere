@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { BsPhone } from "react-icons/bs";
+import { FaPhone } from "react-icons/fa6";
 
 export default function Footer() {
     return (
@@ -9,7 +9,7 @@ export default function Footer() {
 
                 <div>
                     <Link href="/" className="text-2xl font-black text-white">
-                        🎓 SkillSphere
+                        SkillSphere
                     </Link>
                     <p className="mt-3 text-blue-100 max-w-sm">
                         A modern learning platform for practical skills, expert courses,
@@ -42,8 +42,8 @@ export default function Footer() {
                     <h4 className="font-bold text-white mb-3">Contact</h4>
                     <p className="text-blue-100">skillsphere@gmail.com</p>
 
-                    <div className="flex gap-2 mt-4">
-                        <BsPhone />
+                    <div className="flex gap-1 mt-4">
+                        <FaPhone />
                         <p className="text-base text-white">01834340813</p>
 
                     </div>
