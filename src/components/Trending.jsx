@@ -7,25 +7,21 @@ const Trending = async () => {
     const topRated = data
         .sort((a, b) => b.rating - a.rating)
         .slice(0, 2);
+
     return (
-        <div>
-            <div className='bg-[#fffff7] border border-white'>
-                <div className='max-w-7xl mx-auto mb-20'>
-                    <div className='max-w-4xl mx-auto '>
-                        <div className='max-w-2xl   mx-auto text-center'>
+        <div className='bg-[#acac9a] border border-white py-16'>
+            <div className='max-w-7xl mx-auto px-4'>
 
-                            <h1 className='text-2xl font-black mt-5'>
-                                Trnding Courses
-                            </h1>
+                <h1 className='text-2xl font-black text-center mb-8'>
+                    Trending Courses
+                </h1>
 
-                        </div>
-                    </div>
-                    <div className='grid grid-cols-1  md:grid-cols-2 space-y-3 mt-4 mx-auto'>
-                        {
-                            topRated.map(course => <CourseCard key={course.id} course={course} />)
-                        }
-                    </div>
+                <div className='flex flex-col md:flex-row justify-center items-center gap-6'>
+                    {topRated.map(course => (
+                        <CourseCard key={course.id} course={course} />
+                    ))}
                 </div>
+
             </div>
         </div>
     );
