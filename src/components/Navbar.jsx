@@ -7,6 +7,7 @@ import Image from 'next/image';
 import { MdLogout } from "react-icons/md";
 import { signOut } from "@/lib/auth-client";
 import { useRouter } from "next/navigation";
+import { toast } from "react-toastify";
 
 const links = [
     ['/', 'Home'],
@@ -23,6 +24,7 @@ export default function Navbar() {
     const handleSignOut = async () => {
         await signOut();
         router.push("/");
+        toast.success("SignOut Successfully!")
         router.refresh();
     };
 
