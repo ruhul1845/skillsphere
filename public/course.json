@@ -1,0 +1,568 @@
+[
+    {
+        "id": 1,
+        "title": "Complete Web Development Bootcamp",
+        "instructor": "John Doe",
+        "instructorImage": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100",
+        "instructorTitle": "Full-Stack Engineer & Educator",
+        "instructorBio": "John has 10+ years of experience building scalable web applications. He's mentored 5,000+ developers and created award-winning educational content for web development.",
+        "duration": "20 hours",
+        "rating": 4.8,
+        "level": "Beginner",
+        "description": "Learn full-stack web development from scratch including HTML, CSS, JavaScript, and Node.js.",
+        "image": "https://images.unsplash.com/photo-1547658719-da2b51169166?w=600",
+        "category": "Development",
+        "learnings": [
+            "Master HTML5, CSS3, and responsive design principles",
+            "Build dynamic applications with JavaScript and ES6+",
+            "Develop backend services using Node.js and Express",
+            "Database design and management with MongoDB"
+        ],
+        "curriculum": [
+            {
+                "title": "Module 1: HTML & CSS Fundamentals",
+                "lessons": 8,
+                "duration": "3h 45m"
+            },
+            {
+                "title": "Module 2: JavaScript Essentials",
+                "lessons": 10,
+                "duration": "5h 30m"
+            },
+            {
+                "title": "Module 3: React Fundamentals",
+                "lessons": 12,
+                "duration": "6h 15m"
+            },
+            {
+                "title": "Module 4: Backend Development with Node.js",
+                "lessons": 9,
+                "duration": "4h 30m"
+            }
+        ],
+        "includes": [
+            {
+                "icon": "🎥",
+                "text": "20 hours video content"
+            },
+            {
+                "icon": "📝",
+                "text": "50+ practice projects"
+            },
+            {
+                "icon": "💾",
+                "text": "Downloadable resources"
+            },
+            {
+                "icon": "📱",
+                "text": "Mobile accessible"
+            },
+            {
+                "icon": "🏆",
+                "text": "Certificate of completion"
+            }
+        ],
+        "socialLinks": {
+            "linkedin": "https://linkedin.com",
+            "website": "https://johndoe.dev",
+            "github": "https://github.com"
+        }
+    },
+    {
+        "id": 2,
+        "title": "Python for Data Science & Machine Learning",
+        "instructor": "Jane Smith",
+        "instructorImage": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100",
+        "instructorTitle": "Data Scientist & ML Engineer",
+        "instructorBio": "Jane holds a PhD in Machine Learning and has 12+ years working at leading tech companies. She's published 20+ research papers and trained 8,000+ data scientists.",
+        "duration": "35 hours",
+        "rating": 4.9,
+        "level": "Intermediate",
+        "description": "Master Python, Pandas, NumPy, and build real-world ML models using scikit-learn and TensorFlow.",
+        "image": "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=600",
+        "category": "Data Science",
+        "learnings": [
+            "Master Python fundamentals for data science",
+            "Data manipulation with Pandas and NumPy",
+            "Statistical analysis and visualization techniques",
+            "Build and deploy machine learning models"
+        ],
+        "curriculum": [
+            {
+                "title": "Module 1: Python Basics & Data Structures",
+                "lessons": 7,
+                "duration": "3h 20m"
+            },
+            {
+                "title": "Module 2: Data Analysis with Pandas & NumPy",
+                "lessons": 9,
+                "duration": "4h 50m"
+            },
+            {
+                "title": "Module 3: Statistical Analysis & Visualization",
+                "lessons": 8,
+                "duration": "4h 10m"
+            },
+            {
+                "title": "Module 4: Machine Learning with scikit-learn",
+                "lessons": 11,
+                "duration": "6h 30m"
+            },
+            {
+                "title": "Module 5: Deep Learning with TensorFlow",
+                "lessons": 10,
+                "duration": "5h 15m"
+            }
+        ],
+        "includes": [
+            {
+                "icon": "🎥",
+                "text": "35 hours video content"
+            },
+            {
+                "icon": "📝",
+                "text": "30+ data science projects"
+            },
+            {
+                "icon": "💾",
+                "text": "Jupyter notebooks"
+            },
+            {
+                "icon": "📱",
+                "text": "Mobile accessible"
+            },
+            {
+                "icon": "🏆",
+                "text": "Certificate of completion"
+            }
+        ],
+        "socialLinks": {
+            "linkedin": "https://linkedin.com",
+            "website": "https://janesmith.ai",
+            "github": "https://github.com"
+        }
+    },
+    {
+        "id": 3,
+        "title": "UI/UX Design Masterclass",
+        "instructor": "Emily Chen",
+        "instructorImage": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?w=100",
+        "instructorTitle": "Creative Director & UX Designer",
+        "instructorBio": "Emily is a award-winning designer with 9+ years in the industry. She's designed interfaces for 50+ startups and enterprise companies, winning multiple international design awards.",
+        "duration": "18 hours",
+        "rating": 4.6,
+        "level": "Beginner",
+        "description": "Design stunning user interfaces and experiences using Figma, wireframing, and prototyping techniques.",
+        "image": "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=600",
+        "category": "Design",
+        "learnings": [
+            "Master Figma and modern design tools",
+            "Create compelling user experiences",
+            "Implement design systems and best practices",
+            "Design for accessibility and inclusivity"
+        ],
+        "curriculum": [
+            {
+                "title": "Module 1: Design Fundamentals",
+                "lessons": 6,
+                "duration": "2h 45m"
+            },
+            {
+                "title": "Module 2: Figma Mastery",
+                "lessons": 7,
+                "duration": "3h 30m"
+            },
+            {
+                "title": "Module 3: User Research & Discovery",
+                "lessons": 5,
+                "duration": "2h 20m"
+            },
+            {
+                "title": "Module 4: Prototyping & Interaction Design",
+                "lessons": 8,
+                "duration": "4h 15m"
+            }
+        ],
+        "includes": [
+            {
+                "icon": "🎥",
+                "text": "18 hours video content"
+            },
+            {
+                "icon": "📝",
+                "text": "20+ design projects"
+            },
+            {
+                "icon": "💾",
+                "text": "Design files & templates"
+            },
+            {
+                "icon": "📱",
+                "text": "Mobile accessible"
+            },
+            {
+                "icon": "🏆",
+                "text": "Certificate of completion"
+            }
+        ],
+        "socialLinks": {
+            "linkedin": "https://linkedin.com",
+            "website": "https://emilychen.design",
+            "github": "https://github.com"
+        }
+    },
+    {
+        "id": 4,
+        "title": "React & Next.js — The Complete Guide",
+        "instructor": "Michael Brown",
+        "instructorImage": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100",
+        "instructorTitle": "Senior Frontend Engineer",
+        "instructorBio": "Michael specializes in React and Next.js with 8+ years of experience. He's built scalable applications for Fortune 500 companies and is a core contributor to open-source projects.",
+        "duration": "28 hours",
+        "rating": 4.7,
+        "level": "Intermediate",
+        "description": "Build modern, server-side rendered web apps with React 18, Next.js 14, and TypeScript.",
+        "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=600",
+        "category": "Development",
+        "learnings": [
+            "Build scalable applications with React 18",
+            "Master server-side rendering with Next.js 14",
+            "Implement TypeScript for type safety",
+            "Deploy and optimize production applications"
+        ],
+        "curriculum": [
+            {
+                "title": "Module 1: React Fundamentals & Hooks",
+                "lessons": 10,
+                "duration": "5h 00m"
+            },
+            {
+                "title": "Module 2: Next.js & Server-Side Rendering",
+                "lessons": 9,
+                "duration": "4h 30m"
+            },
+            {
+                "title": "Module 3: TypeScript Integration",
+                "lessons": 6,
+                "duration": "3h 15m"
+            },
+            {
+                "title": "Module 4: Advanced Patterns & Performance",
+                "lessons": 7,
+                "duration": "4h 00m"
+            }
+        ],
+        "includes": [
+            {
+                "icon": "🎥",
+                "text": "28 hours video content"
+            },
+            {
+                "icon": "📝",
+                "text": "15+ real-world projects"
+            },
+            {
+                "icon": "💾",
+                "text": "Source code examples"
+            },
+            {
+                "icon": "📱",
+                "text": "Mobile accessible"
+            },
+            {
+                "icon": "🏆",
+                "text": "Certificate of completion"
+            }
+        ],
+        "socialLinks": {
+            "linkedin": "https://linkedin.com",
+            "website": "https://michaelbrown.dev",
+            "github": "https://github.com"
+        }
+    },
+    {
+        "id": 5,
+        "title": "AWS Cloud Practitioner Certification",
+        "instructor": "David Wilson",
+        "instructorImage": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100",
+        "instructorTitle": "AWS Solutions Architect",
+        "instructorBio": "David is an AWS Certified Solutions Architect with 12+ years in cloud computing. He's helped 50,000+ professionals pass AWS certifications and designed cloud infrastructure for leading enterprises.",
+        "duration": "22 hours",
+        "rating": 4.3,
+        "level": "Beginner",
+        "description": "Pass the AWS Cloud Practitioner exam with hands-on labs covering EC2, S3, Lambda, and core cloud concepts.",
+        "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600",
+        "category": "Cloud",
+        "learnings": [
+            "Understand AWS core services and architecture",
+            "Master EC2, S3, Lambda, and RDS fundamentals",
+            "Learn IAM, security, and best practices",
+            "Deploy and manage applications on AWS"
+        ],
+        "curriculum": [
+            {
+                "title": "Module 1: AWS Fundamentals & Core Services",
+                "lessons": 6,
+                "duration": "3h 15m"
+            },
+            {
+                "title": "Module 2: Compute Services (EC2, Lambda)",
+                "lessons": 5,
+                "duration": "2h 45m"
+            },
+            {
+                "title": "Module 3: Storage & Databases (S3, RDS)",
+                "lessons": 5,
+                "duration": "2h 30m"
+            },
+            {
+                "title": "Module 4: Security, IAM & Best Practices",
+                "lessons": 4,
+                "duration": "2h 00m"
+            },
+            {
+                "title": "Module 5: Deployment & Monitoring",
+                "lessons": 3,
+                "duration": "1h 30m"
+            }
+        ],
+        "includes": [
+            {
+                "icon": "🎥",
+                "text": "22 hours video content"
+            },
+            {
+                "icon": "📝",
+                "text": "23 practice exams"
+            },
+            {
+                "icon": "💾",
+                "text": "Downloadable resources"
+            },
+            {
+                "icon": "📱",
+                "text": "Mobile accessible"
+            },
+            {
+                "icon": "🏆",
+                "text": "AWS Certification"
+            }
+        ],
+        "socialLinks": {
+            "linkedin": "https://linkedin.com",
+            "website": "https://davidwilson.aws",
+            "github": "https://github.com"
+        },
+        "certification": {
+            "title": "AWS Certified Cloud Practitioner",
+            "description": "Earn AWS certification upon completion of the course and passing the exam."
+        }
+    },
+    {
+        "id": 6,
+        "title": "Advanced JavaScript & ES2024",
+        "instructor": "Sarah Johnson",
+        "instructorImage": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100",
+        "instructorTitle": "JavaScript Expert & Tech Lead",
+        "instructorBio": "Sarah has 11+ years of JavaScript expertise and is a recognized technical leader. She's contributed to major open-source projects and spoken at 30+ international conferences.",
+        "duration": "16 hours",
+        "rating": 4.5,
+        "level": "Advanced",
+        "description": "Deep dive into closures, async/await, Promises, design patterns, and the latest ES2024 features.",
+        "image": "https://images.unsplash.com/photo-1579468118864-1b9ea3c0db4a?w=600",
+        "category": "Development",
+        "learnings": [
+            "Master JavaScript closures and scope",
+            "Deep understanding of async/await and Promises",
+            "Design patterns and best practices",
+            "Latest ES2024 features and syntax"
+        ],
+        "curriculum": [
+            {
+                "title": "Module 1: Advanced Concepts & Closures",
+                "lessons": 6,
+                "duration": "3h 00m"
+            },
+            {
+                "title": "Module 2: Asynchronous JavaScript",
+                "lessons": 7,
+                "duration": "3h 45m"
+            },
+            {
+                "title": "Module 3: Design Patterns",
+                "lessons": 5,
+                "duration": "2h 30m"
+            },
+            {
+                "title": "Module 4: ES2024 Features & Modern Syntax",
+                "lessons": 6,
+                "duration": "3h 15m"
+            }
+        ],
+        "includes": [
+            {
+                "icon": "🎥",
+                "text": "16 hours video content"
+            },
+            {
+                "icon": "📝",
+                "text": "25+ coding challenges"
+            },
+            {
+                "icon": "💾",
+                "text": "Code examples & patterns"
+            },
+            {
+                "icon": "📱",
+                "text": "Mobile accessible"
+            },
+            {
+                "icon": "🏆",
+                "text": "Certificate of completion"
+            }
+        ],
+        "socialLinks": {
+            "linkedin": "https://linkedin.com",
+            "website": "https://sarahjohnson.dev",
+            "github": "https://github.com"
+        }
+    },
+    {
+        "id": 7,
+        "title": "Cybersecurity Fundamentals",
+        "instructor": "Chris Martinez",
+        "instructorImage": "",
+        "instructorTitle": "Cybersecurity Expert & Ethical Hacker",
+        "instructorBio": "Chris is a certified ethical hacker with 10+ years in cybersecurity. He's worked for government agencies and Fortune 500 companies, specializing in penetration testing and security architecture.",
+        "duration": "24 hours",
+        "rating": 4.1,
+        "level": "Beginner",
+        "description": "Understand ethical hacking, network security, penetration testing, and how to defend against cyber threats.",
+        "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=600",
+        "category": "Security",
+        "learnings": [
+            "Ethical hacking methodologies and tools",
+            "Network security and attack prevention",
+            "Penetration testing fundamentals",
+            "Threat analysis and risk management"
+        ],
+        "curriculum": [
+            {
+                "title": "Module 1: Cybersecurity Fundamentals",
+                "lessons": 7,
+                "duration": "3h 30m"
+            },
+            {
+                "title": "Module 2: Network Security",
+                "lessons": 8,
+                "duration": "4h 15m"
+            },
+            {
+                "title": "Module 3: Ethical Hacking Techniques",
+                "lessons": 6,
+                "duration": "3h 00m"
+            },
+            {
+                "title": "Module 4: Penetration Testing Lab",
+                "lessons": 5,
+                "duration": "3h 15m"
+            }
+        ],
+        "includes": [
+            {
+                "icon": "🎥",
+                "text": "24 hours video content"
+            },
+            {
+                "icon": "📝",
+                "text": "15+ hands-on labs"
+            },
+            {
+                "icon": "💾",
+                "text": "Security tools guide"
+            },
+            {
+                "icon": "📱",
+                "text": "Mobile accessible"
+            },
+            {
+                "icon": "🏆",
+                "text": "Certificate of completion"
+            }
+        ],
+        "socialLinks": {
+            "linkedin": "https://linkedin.com",
+            "website": "https://chrismartinez.security",
+            "github": "https://github.com"
+        }
+    },
+    {
+        "id": 8,
+        "title": "Flutter & Dart — Mobile App Development",
+        "instructor": "Lisa Park",
+        "instructorImage": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100",
+        "instructorTitle": "Mobile App Developer & Flutter Expert",
+        "instructorBio": "Lisa has 9+ years developing mobile applications and is a Flutter certified developer. She's created 50+ successful apps downloaded 10 million times with expertise in iOS and Android platforms.",
+        "duration": "30 hours",
+        "rating": 4.4,
+        "level": "Intermediate",
+        "description": "Build beautiful cross-platform iOS and Android apps from scratch using Flutter and the Dart programming language.",
+        "image": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=600",
+        "category": "Mobile Development",
+        "learnings": [
+            "Master Dart programming language",
+            "Build responsive Flutter applications",
+            "Implement native features and APIs",
+            "Deploy apps to App Store and Google Play"
+        ],
+        "curriculum": [
+            {
+                "title": "Module 1: Dart Fundamentals",
+                "lessons": 8,
+                "duration": "3h 45m"
+            },
+            {
+                "title": "Module 2: Flutter Basics & Widget System",
+                "lessons": 10,
+                "duration": "5h 30m"
+            },
+            {
+                "title": "Module 3: State Management & Architecture",
+                "lessons": 7,
+                "duration": "4h 00m"
+            },
+            {
+                "title": "Module 4: Integration & Deployment",
+                "lessons": 6,
+                "duration": "3h 30m"
+            }
+        ],
+        "includes": [
+            {
+                "icon": "🎥",
+                "text": "30 hours video content"
+            },
+            {
+                "icon": "📝",
+                "text": "8 complete mobile apps"
+            },
+            {
+                "icon": "💾",
+                "text": "Source code templates"
+            },
+            {
+                "icon": "📱",
+                "text": "Mobile accessible"
+            },
+            {
+                "icon": "🏆",
+                "text": "Certificate of completion"
+            }
+        ],
+        "socialLinks": {
+            "linkedin": "https://linkedin.com",
+            "website": "https://lisapark.dev",
+            "github": "https://github.com"
+        }
+    }
+]
