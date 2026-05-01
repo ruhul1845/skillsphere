@@ -1,36 +1,121 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🎓 SkillSphere – Online Learning Platform
 
-## Getting Started
+A modern online learning platform where users can explore courses, watch lessons, and enroll in skill-based programs like Web Development, Design, Marketing, and more.
 
-First, run the development server:
+## 🌐 Live URL
+
+[https://your-live-url.vercel.app](https://skillphere.vercel.app/profile)
+
+## 📁 GitHub Repository
+
+[https://github.com/your-username/skillsphere](https://github.com/ruhul1845/skillsphere)
+
+---
+
+## ✨ Key Features
+
+- 🔐 **Authentication** – Email/password login & Google OAuth via BetterAuth
+- 📚 **All Courses Page** – Browse all available courses with search by title
+- 🔒 **Protected Course Details** – Only accessible to logged-in users; redirects back after login
+- 👤 **My Profile** – View and update display name & profile photo URL
+- 🏆 **Top Instructors Section** – Highlights platform's featured instructors
+- 🔥 **Popular Courses** – Showcases the top 3 highest-rated courses on the homepage
+- 📈 **Trending / New Releases Section** – Extra section highlighting trending content
+- 💡 **Learning Tips Section** – Study techniques and time management tips
+- 🎨 **Fully Responsive** – Mobile, tablet, and desktop support
+- 🔔 **Toast Notifications** – Feedback on login, registration, and profile update
+- ⏳ **Loading States** – Loaders shown during data fetching
+- 🚫 **404 Not Found Page** – Custom not-found page for invalid routes
+- 🎞️ **Hero Banner/Slider** – Dynamic hero section with motivational messaging
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+|---|---|
+| [Next.js](https://nextjs.org/) | React framework with App Router |
+| [Tailwind CSS](https://tailwindcss.com/) | Utility-first styling |
+| [DaisyUI](https://daisyui.com/) / [HeroUI](https://heroui.com/) | UI component library |
+| [BetterAuth](https://better-auth.com/) | Authentication (Email + Google OAuth) |
+
+---
+
+## 📦 NPM Packages Used
+
+| Package | Purpose |
+|---|---|
+| `better-auth` | Authentication provider |
+| `swiper` | Hero banner/slider component |
+| `react-hot-toast` | Toast notifications |
+| `motion` *(or your chosen animation lib)* | Animations and transitions |
+
+> *(Update this list to match the packages actually installed in your project)*
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js v18+
+- npm or yarn
+
+### Installation
+
+```bash
+git clone https://github.com/ruhul1845/skillsphere
+cd skillsphere
+npm install
+```
+
+### Environment Variables
+
+Create a `.env.local` file in the root directory and add the following:
+
+```env
+BETTER_AUTH_SECRET=your_secret_here
+BETTER_AUTH_URL=http://localhost:3000
+
+GOOGLE_CLIENT_ID=your_google_client_id
+GOOGLE_CLIENT_SECRET=your_google_client_secret
+```
+
+> ⚠️ Never commit your `.env.local` file. It is listed in `.gitignore`.
+
+### Run Locally
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📄 Pages & Routes
 
-## Learn More
+| Route | Description | Protected |
+|---|---|---|
+| `/` | Home page with hero, popular courses, tips, instructors | ❌ |
+| `/courses` | All courses with search functionality | ❌ |
+| `/courses/[id]` | Course details page | ✅ Login required |
+| `/login` | Login with email or Google | ❌ |
+| `/register` | Register with name, email, photo, password | ❌ |
+| `/my-profile` | View logged-in user's profile | ✅ Login required |
+| `/my-profile/update` | Update name and profile photo | ✅ Login required |
+| `*` | Custom 404 Not Found page | ❌ |
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📸 Screenshots
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+> *(Add screenshots of your homepage, courses page, and course details page here)*
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 👤 Author
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Your Name**
+- GitHub: [@your-username](https://github.com/your-username)
+- Email: your@email.com

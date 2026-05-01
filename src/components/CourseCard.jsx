@@ -41,7 +41,7 @@ const CourseCard = ({ course }) => {
                     {title}
                 </h3>
 
-                <div className="flex items-center gap-2">
+                <div className="flex items-center  gap-2">
                     {instructorImage ? (
                         <div className="relative w-7 h-7 rounded-full overflow-hidden flex-shrink-0">
                             <Image

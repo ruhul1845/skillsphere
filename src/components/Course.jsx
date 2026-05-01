@@ -20,7 +20,7 @@ const Course = async () => {
                         <p>Elevate your career with our top rated professional programs</p>
                     </div>
                 </div>
-                <div className='grid grid-cols-1 lg:grid-cols-3  mt-4'>
+                <div className='grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 space-y-3 mt-4 mx-auto'>
                     {
                         topRated.map(course => <CourseCard key={course.id} course={course} />)
                     }

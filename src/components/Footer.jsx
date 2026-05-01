@@ -19,7 +19,7 @@ export default function Footer() {
 
                 <div>
                     <h4 className="font-bold text-white mb-3">Quick Links</h4>
-                    <ul className="space-y-2 text-blue-100 lg: flex flex-row gap-3">
+                    <ul className="space-y-2 text-blue-100 md:grid grid-cols-1">
                         <li>
                             <Link href="/" className="hover:text-white transition">
                                 Home
@@ -42,7 +42,7 @@ export default function Footer() {
                     <h4 className="font-bold text-white mb-3">Contact</h4>
                     <p className="text-blue-100">skillsphere@gmail.com</p>
 
-                    <div className="flex gap-1 mt-4">
+                    <div className="flex gap-2 mt-4">
                         <FaPhone />
                         <p className="text-base text-white">01834340813</p>
 
