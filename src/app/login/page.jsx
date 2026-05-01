@@ -5,8 +5,10 @@ import { authClient } from "@/lib/auth-client";
 import Link from "next/link";
 import { useState } from "react";
 import { toast } from "react-toastify";
+import { useRouter } from "next/navigation";
 
 export default function SignInPage() {
+    const router = useRouter();
     const [showPassword, setShowPassword] = useState(false);
     const [emailVal, setEmailVal] = useState("");
     const [passwordVal, setPasswordVal] = useState("");
@@ -32,13 +34,17 @@ export default function SignInPage() {
         const { data, error } = await authClient.signIn.email({
             email: emailVal,
             password: passwordVal,
-            callbackURL: "/",
+
         });
         if (error) {
             toast.error(error.message || "Something went wrong. Please try again.");
 
         }
-        toast.success("SignIn successfully! Redirecting…");
+        else {
+            toast.success("SignIn successfully! Redirecting…");
+            setTimeout(() => router.push("/"), 1500);
+        }
+
     };
 
     const handleGoogleSignIn = async () => {
