@@ -431,7 +431,7 @@
         "id": 7,
         "title": "Cybersecurity Fundamentals",
         "instructor": "Chris Martinez",
-        "instructorImage": "",
+        "instructorImage": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100",
         "instructorTitle": "Cybersecurity Expert & Ethical Hacker",
         "instructorBio": "Chris is a certified ethical hacker with 10+ years in cybersecurity. He's worked for government agencies and Fortune 500 companies, specializing in penetration testing and security architecture.",
         "duration": "24 hours",
