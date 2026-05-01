@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { BsPhone } from "react-icons/bs";
 
 export default function Footer() {
     return (
@@ -18,7 +19,7 @@ export default function Footer() {
 
                 <div>
                     <h4 className="font-bold text-white mb-3">Quick Links</h4>
-                    <ul className="space-y-2 text-blue-100">
+                    <ul className="space-y-2 text-blue-100 lg: flex flex-row gap-3">
                         <li>
                             <Link href="/" className="hover:text-white transition">
                                 Home
@@ -39,27 +40,12 @@ export default function Footer() {
 
                 <div>
                     <h4 className="font-bold text-white mb-3">Contact</h4>
-                    <p className="text-blue-100">hello@skillsphere.dev</p>
+                    <p className="text-blue-100">skillsphere@gmail.com</p>
 
-                    <div className="flex gap-3 mt-4">
-                        <a
-                            href="#"
-                            className="w-9 h-9 flex items-center justify-center rounded-full bg-white/20 hover:bg-white/30 transition backdrop-blur"
-                        >
-                            GH
-                        </a>
-                        <a
-                            href="#"
-                            className="w-9 h-9 flex items-center justify-center rounded-full bg-white/20 hover:bg-white/30 transition backdrop-blur"
-                        >
-                            X
-                        </a>
-                        <a
-                            href="#"
-                            className="w-9 h-9 flex items-center justify-center rounded-full bg-white/20 hover:bg-white/30 transition backdrop-blur"
-                        >
-                            in
-                        </a>
+                    <div className="flex gap-2 mt-4">
+                        <BsPhone />
+                        <p className="text-base text-white">01834340813</p>
+
                     </div>
                 </div>
 
