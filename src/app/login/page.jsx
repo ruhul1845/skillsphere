@@ -36,10 +36,9 @@ export default function SignInPage() {
         });
         if (error) {
             toast.error(error.message || "Something went wrong. Please try again.");
-        } if (data) {
-            toast.success("SignIn successfully! Redirecting…");
-            setTimeout(() => router.push("/"), 1500);
+
         }
+        toast.success("SignIn successfully! Redirecting…");
     };
 
     const handleGoogleSignIn = async () => {

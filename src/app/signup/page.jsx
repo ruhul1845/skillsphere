@@ -56,6 +56,7 @@ export default function SignUpPage() {
 
     const handleGoogleSignIn = async () => {
         await authClient.signIn.social({ provider: "google" });
+        toast.success("SignUp with google succesfully!")
     };
 
     const handleReset = () => {
