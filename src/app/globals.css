@@ -3,9 +3,10 @@
 @plugin "daisyui";
 @import "@heroui/styles";
 
-/* ============================================================
-   THEME
-   ============================================================ */
+body {
+  font-family: var(--font-poppins), sans-serif;
+}
+
 [data-theme="golden"] {
   --background: #FFF8DC;
   --foreground: #3D2B00;

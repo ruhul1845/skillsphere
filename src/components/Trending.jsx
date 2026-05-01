@@ -9,7 +9,7 @@ const Trending = async () => {
         .slice(0, 2);
 
     return (
-        <div className='bg-[#acac9a] border border-white py-16'>
+        <div className='bg-[#fdfded] border border-white py-16'>
             <div className='max-w-7xl mx-auto px-4'>
 
                 <h1 className='text-2xl font-black text-center mb-8'>
