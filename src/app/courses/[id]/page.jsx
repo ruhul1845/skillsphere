@@ -8,7 +8,7 @@ import { LiaHandPointRightSolid } from "react-icons/lia";
 const CourseDetails = async ({ params }) => {
     const { id } = await params;
 
-    const res = await fetch("https://skillsphere-drab.vercel.app/course.json");
+    const res = await fetch("https://skillsphere-drab.vercel.app/course.json", { cache: 'no-store' });
     const data = await res.json();
     const course = data.find(c => c.id === parseInt(id));
 
