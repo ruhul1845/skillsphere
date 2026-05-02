@@ -3,7 +3,7 @@ import { FaPhone } from "react-icons/fa6";
 
 export default function Footer() {
     return (
-        <footer className=" text-slate-200 bg-gradient-to-br from-blue-900 via-blue-700 to-indigo-900 mt-15">
+        <footer className=" text-slate-200 bg-gradient-to-br from-blue-900 via-blue-700 to-indigo-900 ">
 
             <div className="max-w-7xl mx-auto px-4 py-12 grid gap-10 md:grid-cols-3">
 
