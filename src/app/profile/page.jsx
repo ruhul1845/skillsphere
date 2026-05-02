@@ -14,7 +14,7 @@ const ProfilePage = () => {
     //   }
 
     return (
-        <div className="h-127">
+        <div className="h-129">
             <Card className="max-w-7xl  mx-auto flex flex-col items-center border border-gray-100 mt-20 mb-20 p-20">
                 <Avatar className="h-40 w-40">
                     <Avatar.Image
